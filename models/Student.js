@@ -29,8 +29,8 @@ const studentSchema = new mongoose.Schema({
   }],
   // grades: Array of Grade Objects
   grades: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Grades'
+    type: String,
+    ref: 'Grade'
   }],
   // attendance: Array of Attendance Objects
   attendance: [{
